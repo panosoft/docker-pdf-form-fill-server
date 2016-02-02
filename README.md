@@ -1,19 +1,15 @@
-# Prince Server
+# Pdf Form Fill Server
 
-> Official Docker Image Build Context for [`prince-server`](https://github.com/panosoft/prince-server)
+> Official Docker Image Build Context for [`pdf-form-fill-server`](https://github.com/panosoft/pdf-form-fill-server)
 
 ## Usage
 
 Ports:
 
-- `8443` - HTTPS Prince server.
+- `8443` - HTTPS Pdf Form Fill server.
 
 Volumes:
 
 - `host:/credentials:ro`
 	- `server.key`
 	- `server.crt`
-
-
-- `host:/usr/local/lib/prince/license:ro`
-	- `license.dat`
