@@ -22,7 +22,7 @@ RUN git clone https://github.com/tj/n.git n \
   && n $NODE_VERSION
 
 # Install server
-ENV PDF_FORM_FILL_SERVER_VERSION=0.1.1
+ENV PDF_FORM_FILL_SERVER_VERSION=0.1.3
 RUN npm install -g @panosoft/pdf-form-fill-server@$PDF_FORM_FILL_SERVER_VERSION
 
 EXPOSE 8443
